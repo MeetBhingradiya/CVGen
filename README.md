@@ -1,40 +1,22 @@
-# Welcome to Remix!
+# CVGen
+- A Personal & Simple CV or Resume Generator using React, Remix, MongoDB
 
-- 📖 [Remix docs](https://remix.run/docs)
+## Features
+- Single Template
+- Add, Edit, Delete, DND Sections
 
-## Development
-
-Run the dev server:
-
-```shellscript
-npm run dev
+## Installation
++ Clone the Repo
++ Install the Dependencies `npm install` or preffered using `bun install`
++ Create a `.env` file in the root directory
+```env
+MONGO_URI = "mongodb://localhost:27017"
+SESSION_SECRET = "ANY-STRING-THAT-YOU-LIKE"
 ```
++ Start the Server `npm run dev` or preffered using `bun dev`
 
-## Deployment
+## License
++ MIT
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+## Author
+- [Meet Bhingradiya](https://github.com/meetbhingradiya)
